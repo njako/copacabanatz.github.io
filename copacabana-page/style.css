@@ -1,0 +1,83 @@
+:root {
+	--shadow: 0 1px 5px rgba(104,104,104,0.8);
+	--primary: #007bff;
+}
+#container {
+	background: url(../assets/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+.showcase{
+	background: url(../assets/images.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	min-height: 22.9rem;
+	align-items: flex-start;
+	background-repeat: no-repeat;
+	
+}
+
+.showcase h3{
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.showcase p {
+	font-size: 1.2rem;
+}
+
+.card-header {
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+#features {
+	box-shadow: var(--shadow);
+}
+
+nav {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.shadow {
+	box-shadow: var(--shadow);
+}
+
+.boundary {
+	border-top: none;
+	border-bottom: 9px solid;
+	border-color: var(--primary);
+	border-left: none;
+	border-right: none;
+}
+
+.footer-fluid {
+	border-top: 9px solid;
+	border-color: var(--primary);
+	border-left: none;
+	border-right: none;
+	margin: 0;
+	padding: 1px;
+}
+
+.section-container {
+	background: rgba(255,255,255,0.7);
+	padding: 10px 10px 30px;
+}
+
+.logos {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	height: 106px;
+	width: 107px;
+	top: -2px;
+}
